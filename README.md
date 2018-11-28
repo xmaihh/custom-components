@@ -2,7 +2,7 @@
 android custom-components.
 
 # 文档
-- [中文](https://github.com/xmaihh/custom-components/blog/master/README_EN.md)
+- [English](https://github.com/xmaihh/custom-components/blob/master/README_EN.md)
 
 # 屏幕坐标系
 屏幕坐标系，主要有两种

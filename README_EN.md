@@ -2,7 +2,7 @@
 android custom-components.
 
 # Document
-- [中文](https://github.com/xmaihh/custom-components/blog/master/README.md)
+- [中文](https://github.com/xmaihh/custom-components/blob/master/README_EN.md)
 
 # Screen coordinate system
 There are two main types of screen coordinate systems.
