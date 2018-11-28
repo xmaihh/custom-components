@@ -1,5 +1,5 @@
-# custom-components
-android custom-components.
+# 自定义组件
+一些Android 自定义组件。
 
 # Document
 - [中文](https://github.com/xmaihh/custom-components/blob/master/README_EN.md)
