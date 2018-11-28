@@ -1,19 +1,15 @@
 # custom-components
 android custom-components.
 
-# Document
-- [中文](https://github.com/xmaihh/custom-components/raw/master/README.md)
+# 文档
+- [中文](https://github.com/xmaihh/custom-components/blog/master/README_EN.md)
 
-# Screen coordinate system
-There are two main types of screen coordinate systems.
+# 屏幕坐标系
+屏幕坐标系，主要有两种
 ![cartesian_coordinate_system](https://github.com/xmaihh/custom-components/blob/master/arts/cartesian_coordinate_system.png)
- First: take the upper left corner as the origin.
-  Representative operating systems:
-  Windows, Android, Symbian,
- iOS Core Graphics as shown in Figure 1.
+第一种：以左上角为原点。代表的操作系统有Windows，Android，Symbian，iOS 的Core Graphics如图左侧。
 
- Second: take the lower left corner as the origin.
- For example, iOS CGContextDrawImage, as shown in Figure 2
+第二种：以左下角为原点。比如iOS的CGContextDrawImage，如图右侧。
 
-# [SuperCircleView](https://github.com/xmaihh/custom-components/raw/master/app/src/main/java/tp/custom_components/project/widget/SuperCircleView.java)
+# [SuperCircleView](https://github.com/xmaihh/custom-components/blob/master/app/src/main/java/tp/custom_components/project/widget/SuperCircleView.java)
 ![SuperCircleView](https://github.com/xmaihh/custom-components/raw/master/arts/SuperCircleView.png)
