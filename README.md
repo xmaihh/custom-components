@@ -6,7 +6,7 @@ android custom-components.
 
 # Screen coordinate system
 There are two main types of screen coordinate systems.
-![aa](https://github.com/xmaihh/custom-components/raw/master/arts/cartesian_coordinate_system.png}
+![cartesian_coordinate_system](https://github.com/xmaihh/custom-components/blob/master/arts/cartesian_coordinate_system.png)
  First: take the upper left corner as the origin.
   Representative operating systems:
   Windows, Android, Symbian,
