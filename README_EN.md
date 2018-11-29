@@ -2,7 +2,7 @@
 android custom-components.
 
 # Document
-- [中文](https://github.com/xmaihh/custom-components/blob/master/README_EN.md)
+- [中文](https://github.com/xmaihh/custom-components/blob/master/README.md)
 
 # Screen coordinate system
 There are two main types of screen coordinate systems.
@@ -17,3 +17,6 @@ There are two main types of screen coordinate systems.
 
 # [SuperCircleView](https://github.com/xmaihh/custom-components/blob/master/app/src/main/java/tp/custom_components/project/widget/SuperCircleView.java)
 ![SuperCircleView](https://github.com/xmaihh/custom-components/raw/master/arts/SuperCircleView.png)
+
+# [SlideButton](https://github.com/xmaihh/custom-components/blob/master/app/src/main/java/tp/custom_components/project/widget/SlideButton.java)
+![SlideButton](https://github.com/xmaihh/custom-components/raw/master/arts/SlideButton.png)

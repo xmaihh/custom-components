@@ -13,3 +13,6 @@
 
 # [SuperCircleView](https://github.com/xmaihh/custom-components/blob/master/app/src/main/java/tp/custom_components/project/widget/SuperCircleView.java)
 ![SuperCircleView](https://github.com/xmaihh/custom-components/raw/master/arts/SuperCircleView.png)
+
+# [SlideButton](https://github.com/xmaihh/custom-components/blob/master/app/src/main/java/tp/custom_components/project/widget/SlideButton.java)
+![SlideButton](https://github.com/xmaihh/custom-components/raw/master/arts/SlideButton.png)
