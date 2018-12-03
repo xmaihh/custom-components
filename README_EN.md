@@ -22,4 +22,4 @@ There are two main types of screen coordinate systems.
 ![SlideButton](https://github.com/xmaihh/custom-components/raw/master/arts/SlideButton.png)
 
 # [RegulatorView](https://github.com/xmaihh/custom-components/blob/master/app/src/main/java/tp/custom_components/project/widget/RegulatorView.java)
-![RegulatorView](https://github.com/xmaihh/custom-components/raw/master/arts/RegulatorView.png)
+![RegulatorView](https://github.com/xmaihh/custom-components/raw/master/arts/RegulatorView.gif)
