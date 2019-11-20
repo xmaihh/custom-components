@@ -19,3 +19,6 @@
 
 # [RegulatorView](https://github.com/xmaihh/custom-components/blob/master/app/src/main/java/tp/custom_components/project/widget/RegulatorView.java)
 ![RegulatorView](https://github.com/xmaihh/custom-components/raw/master/arts/RegulatorView.gif)
+
+# [RegulatorView2](https://github.com/xmaihh/custom-components/blob/master/app/src/main/java/tp/custom_components/project/widget/RegulatorView2.java)
+![RegulatorView2](https://github.com/xmaihh/custom-components/raw/master/arts/RegulatorView2.png)

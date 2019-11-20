@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#003542"
+        tools:context=".MainActivity">
+
+    <View
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="110dp"
+            android:background="#003542"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent" />
+
+    <tp.custom_components.project.widget.RegulatorView2
+            android:id="@+id/regulator_view_time"
+            android:layout_width="320dp"
+            android:layout_height="320dp"
+            android:layout_marginTop="60dp"
+            android:visibility="visible"
+            app:bottom_title="MM:SS"
+            app:bottom_title_size="30sp"
+            app:bottom_title_color="@android:color/white"
+            app:center_title="02:31"
+            app:center_title_color="@android:color/white"
+            app:center_title_size="60sp"
+            app:is_forbid_slide="true"
+            app:isopen_backlightanim="false"
+            app:layout_constraintLeft_toLeftOf="@id/view"
+            app:layout_constraintRight_toRightOf="@id/view"
+            app:layout_constraintTop_toTopOf="@id/view"
+            app:pointer_color="@android:color/transparent"
+            app:second_circle_width="40dp"
+            app:second_scale="0.28"
+            app:secondcircle_shadow_color="@android:color/transparent"
+            app:secondcircle_shadow_width="12dp"
+            app:short_line_color="@android:color/transparent"
+            app:symbol=""
+            app:three_circle_color="@android:color/transparent" />
+
+    <TextView
+            android:id="@+id/tv_time"
+            app:layout_constraintLeft_toLeftOf="@id/regulator_view_time"
+            app:layout_constraintTop_toBottomOf="@id/regulator_view_time"
+            app:layout_constraintRight_toRightOf="@id/regulator_view_time"
+            android:text="TIME"
+            android:textColor="#A3ADB2"
+            android:textSize="30sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <tp.custom_components.project.widget.RegulatorView2
+            android:id="@+id/regulator_view_temperature"
+            android:layout_width="320dp"
+            android:layout_height="320dp"
+            app:bottom_title="°C"
+            app:bottom_title_size="30sp"
+            app:center_title="205"
+            app:center_title_size="60sp"
+            app:layout_constraintBottom_toBottomOf="@id/regulator_view_time"
+            app:layout_constraintRight_toLeftOf="@id/regulator_view_time"
+            app:layout_constraintTop_toTopOf="@id/regulator_view_time"
+            app:pointer_color="#00FFC0"
+            app:pointer_width="4dp"
+            app:second_circle_width="40dp"
+            app:second_scale="0.28"
+            app:secondcircle_shadow_width="12dp"
+            app:short_line_color="#326175"
+            app:short_line_count="2"
+            app:symbol=""
+            app:three_circle_color="#326175" />
+    <TextView
+            android:id="@+id/tv_temperature"
+            app:layout_constraintRight_toRightOf="@id/regulator_view_temperature"
+            app:layout_constraintTop_toBottomOf="@id/regulator_view_temperature"
+            app:layout_constraintLeft_toLeftOf="@id/regulator_view_temperature"
+            android:text="TEMP"
+            android:textColor="#00FFC0"
+            android:textSize="30sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <tp.custom_components.project.widget.RegulatorView2
+            android:id="@+id/regulator_view_rpm"
+            android:layout_width="320dp"
+            android:layout_height="320dp"
+            android:visibility="visible"
+            app:bottom_bitmap_image="@drawable/home_smallround_rotating"
+            app:bottom_bitmap_height="38dp"
+            app:bottom_bitmap_width="38dp"
+            app:bottom_title=""
+            app:center_title="300"
+            app:center_title_color="@android:color/white"
+            app:center_title_size="60sp"
+            app:is_forbid_slide="true"
+            app:isopen_backlightanim="false"
+            app:layout_constraintBottom_toBottomOf="@id/regulator_view_time"
+            app:layout_constraintLeft_toRightOf="@id/regulator_view_time"
+            app:layout_constraintTop_toTopOf="@id/regulator_view_time"
+            app:pointer_color="#00FFC0"
+            app:pointer_width="4dp"
+            app:second_circle_width="40dp"
+            app:second_scale="0.28"
+            app:secondcircle_shadow_color="@android:color/transparent"
+            app:secondcircle_shadow_width="12dp"
+            app:short_line_color="#326175"
+            app:symbol=""
+            app:three_circle_color="#326175" />
+
+    <TextView
+            android:id="@+id/tv_rpm"
+            app:layout_constraintLeft_toLeftOf="@id/regulator_view_rpm"
+            app:layout_constraintTop_toBottomOf="@id/regulator_view_rpm"
+            app:layout_constraintRight_toRightOf="@id/regulator_view_rpm"
+            android:text="RPM"
+            android:textColor="#A3ADB2"
+            android:textSize="30sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+</android.support.constraint.ConstraintLayout>
